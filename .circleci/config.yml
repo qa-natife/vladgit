@@ -39,4 +39,4 @@ jobs:
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
       # Generate apk
-      - run: ls Asociacii
+      - run: cd Asociacii && ./gradlew assembleDebug
