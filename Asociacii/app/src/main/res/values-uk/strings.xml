@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Воображаріум</string>
+    <string name="splash">Воображаріум</string>
+    <string name="splash1">N Game</string>
+
+    <string name="text_selection_name">Вкажіть імена всіх гравців</string>
+    <string name="text_selection_difficulty_level">Виберіть складність гри</string>
+    <string name="text_add_player">+ Додати гравця</string>
+    <string name="text_next">Далі</string>
+    <string name="text_play">Грати</string>
+    <string name="name_player">Ім`я гравця</string>
+    <string name="easy_words">Прості слова</string>
+    <string name="normal_words">Звичайні слова</string>
+    <string name="hard_words">Складні слова</string>
+    <string name="example_easy_words">Кот, Шафа, Дерево</string>
+    <string name="example_normal_words">Анонс, Секатор, Торжество</string>
+    <string name="example_hard_words">Концепція, Мишача метушня, Аллерген</string>
+    <string name="rules_game">Правила гри</string>
+    <string name="rules_text">
+        Вітаємо у Воображаріумі!
+        \n\nЗараз ми хочемо розповісти тобі правила гри.
+        \n\nГра починається з вибору кількості гравців: 3-6 і введення їх імен. Можеш використовувати мікрофон, для завдання імені голосом.
+        \n\nУ наступному вікні тобі належить вибрати складність, на якій ти і твоя компанія будете грати.
+        \n\nУ правому верхньому куті можна вибрати режим гри: час для загадування одного слова, загальний час гри, кількість раундів, яке триватиме гра (1 раунд = кількості слів, при якому кожен з гравців загадає 1 слово).
+        \n\nУ випадку, коли гравець відгадав слово - 1 бал отримує гравець, який загадав слово і той, хто відгадав слово.
+        \n\nГра закінчується, коли гравці зіграли обрану кількість раундів або загальний час гри закінчено.</string>
+
+
+    <string name="version_game">Версія гри 1.1</string>
+    <string name="contact">Розробник <a href="https://natife.com">Natife.com</a></string>
+    <string name="error_voice_not_support">Ой! Ваш пристрій не підтримує голосовий набір тексту</string>
+    <string name="ok">Так</string>
+    <string name="set_name">Вкажіть імена!</string>
+    <string name="set_different_name">Вкажіть різні імена!</string>
+
+    <string name="set_rules_game">Налаштування гри</string>
+    <string name="time_move">Час ходу (сек)</string>
+    <string name="time_game">Час гри (мін)</string>
+    <string name="number_of_circles">Кількість кіл</string>
+    <string name="save_game">Зберегти</string>
+
+    <string name="turn">Ходить</string>
+    <string name="select_word_and_action">Виберіть СЛОВО і ДІЮ</string>
+    <string name="show_words">Показати слова</string>
+    <string name="show">Показати</string>
+    <string name="tell">Розповісти</string>
+    <string name="draw">Намалювати</string>
+    <string name="go">Поїхали!</string>
+    <string name="select_word">Виберіть слово!</string>
+    <string name="select_action">Виберіть спосіб!</string>
+
+
+    <string name="table_result">Результати</string>
+    <string name="guessed">відгадане</string>
+    <string name="words">слово</string>
+    <string name="start_over">Почати спочатку</string>
+    <string name="no">Ні</string>
+    <string name="you_are_sure">Впевнені, що хочете почати заново гру?</string>
+    <string name="winner">Вітаємо!</string>
+    <string name="first_place">1-е місце займає</string>
+    <string name="text_draw">Нічия</string>
+
+    <string name="they_guessed">Відгадали</string>
+    <string name="they_not_guessed">Не відгадали</string>
+    <string name="remind_word">Нагадати слово</string>
+    <string name="who_guessed">Хто відгадав?</string>
+    <string name="describes">Розповідає</string>
+    <string name="draws">Малює</string>
+    <string name="shows">Показує</string>
+    <string name="clear">Очистити</string>
+    <string name="action">Дїї</string>
+    <string name="brush_settings">Налаштування пензлика</string>
+    <string name="time_gone">Час вийшов</string>
+    <string name="word_is_guessed">Слово відгадане?</string>
+
+    <string name="select_color">Виберіть колір</string>
+    <string name="select">Вибрати</string>
+    <string name="custom">Розширено</string>
+    <string name="presets">Попередньо встановлені</string>
+
+    <string name="share">Поділитися</string>
+    <string name="share_via">Поділитися через:</string>
+    <string name="share_text">Результат гри Воображаріум</string>
+    <string name="share_URI"><a href="https://natife.com">https://natife.com</a></string>
+
+    <string name="adUnitId">ca-app-pub-6629087046457001/8960702631</string>
+    <string name="mobileAds">ca-app-pub-6629087046457001~7076775328</string>
+    <string name="test">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

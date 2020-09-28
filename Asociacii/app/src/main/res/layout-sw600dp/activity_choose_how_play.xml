@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_game"
+    android:fitsSystemWindows="true"
+    tools:context=".choose_how_play.ChooseHowPlayActivity">
+
+
+    <TextView
+        android:id="@+id/whose_turn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/turn"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/colorTextSelection"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/results"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:padding="8dp"
+        app:srcCompat ="@drawable/ic_icon_rezults"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/containerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whose_turn">
+
+        <TextView
+            android:id="@+id/textSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:alpha="0.5"
+            android:gravity="center"
+            android:text="@string/select_word_and_action"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/replaceWordsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="8dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_refresh_black_24dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_words"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerText">
+
+        <FrameLayout
+            android:id="@+id/frame_show_words"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:visibility="visible"
+            android:foreground="@drawable/background_frame_sow_words">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:layout_marginBottom="17dp"
+                app:srcCompat ="@drawable/ic_visibility_black_24dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:layout_marginTop="17dp"
+                android:text="@string/show_words"
+                android:textColor="@color/colorTextSelection"
+                android:textSize="22sp" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frame_word1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="@drawable/recycler_backgroind"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/word1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="@string/turn"
+                android:textColor="@color/colorTextSelection"
+                android:textSize="25sp" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frame_word2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:foreground="@drawable/recycler_backgroind"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_word1">
+
+            <TextView
+                android:id="@+id/word2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="@string/turn"
+                android:textColor="@color/colorTextSelection"
+                android:textSize="25sp" />
+        </FrameLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:fitsSystemWindows="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_words">
+
+        <FrameLayout
+            android:id="@+id/layout_show"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:foreground="@drawable/recycler_backgroind"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_tell"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iconShow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="50dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="20dp"
+                app:srcCompat ="@drawable/ic_card_show" />
+
+            <TextView
+                android:id="@+id/text_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iconShow"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/show"
+                android:textColor="@color/colorTextSelection" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_tell"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:foreground="@drawable/recycler_backgroind"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_draw"
+            app:layout_constraintStart_toEndOf="@+id/layout_show"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iconTell"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingEnd="25dp"
+                android:paddingStart="25dp"
+                android:paddingTop="50dp"
+                app:srcCompat ="@drawable/ic_card_speak" />
+
+            <TextView
+                android:id="@+id/text_tell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iconTell"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="@string/tell"
+                android:textColor="@color/colorTextSelection" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_draw"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:foreground="@drawable/recycler_backgroind"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/layout_tell"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/icon_draw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="50dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="30dp"
+                app:srcCompat ="@drawable/ic_card_draw" />
+
+            <TextView
+                android:id="@+id/text_draw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/icon_draw"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/draw"
+                android:textColor="@color/colorTextSelection" />
+        </FrameLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/buttonGo"
+        style="@style/ButtonThemeWithColor"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout6">
+
+        <TextView
+            android:id="@+id/text_btn_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:gravity="center"
+            android:text="@string/go"
+            android:textColor="@color/colorTextSelection"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/adUnitId"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

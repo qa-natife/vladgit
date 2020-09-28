@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextSelection">#ffffff</color>
+    <color name="colorPressed">#70ffffff</color>
+    <color name="colorNotActive">#d9d9d9</color>
+    <color name="colorNotActiveAlfa">#50d9d9d9</color>
+    <color name="colorPressed2">#00ffffff</color>
+    <color name="colorToolbar">#00ffffff</color>
+    <color name="colorButton">#0C4FBD</color>
+    <color name="colorButtonAlpha">#2072f9</color>
+    <color name="colorInfo">#508cef</color>
+    <color name="colorHint">#b3b2b2</color>
+    <color name="colorTimer1">#ffffff</color>
+    <color name="colorTimer2">#80000000</color>
+    <color name="colorDefault">#000000</color>
+    <color name="colorGuessed">#45e0b3</color>
+    <color name="colorGuessedPressed">#8d45e0b3</color>
+    <color name="colorNotGuessed">#fb696e</color>
+    <color name="colorNotGuessedPressed">#88fb696e</color>
+    <color name="colorCircleWin">#e9e8e0</color>
+    <color name="colorText">#34DCB2</color>
+
+    <color name="colorPlayer1">#F8DD1C</color>
+    <color name="colorPlayer2">#00D3FF</color>
+    <color name="colorPlayer3">#34DCB2</color>
+    <color name="colorPlayer4">#FF8080</color>
+    <color name="colorPlayer5">#A9D148</color>
+    <color name="colorPlayer6">#F59BFF</color>
+
+</resources>

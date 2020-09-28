@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imaginarium</string>
+    <string name="splash">Imaginarium</string>
+    <string name="splash1">N Game</string>
+
+    <string name="text_selection_name">Choose your name</string>
+    <string name="text_selection_difficulty_level">Choose game level</string>
+    <string name="text_add_player">+ Add player</string>
+    <string name="text_next">Next</string>
+    <string name="text_play">Let`s play</string>
+    <string name="name_player">Player name</string>
+    <string name="easy_words">Simple words</string>
+    <string name="normal_words">Normal words</string>
+    <string name="hard_words">Difficult words</string>
+    <string name="example_easy_words">Home, Apple, Mosquito</string>
+    <string name="example_normal_words">Aquarium, Monitor, Athlete</string>
+    <string name="example_hard_words">Decimation, Phenomenon, Neutrality</string>
+    <string name="rules_game">Rules of the game</string>
+    <string name="rules_text">
+        Welcome to Imaginarium!
+        \n\nNow we want to tell you the rules of the game.
+        \n\nThe game begins with choosing the number of players: 3-6 and entering their names. You can use the microphone for the task name voice.
+        \n\nIn the next window you have to choose a game level in which you and your team will play.
+        \n\nIn the upper right corner, you can select the game mode: time for guessing one word, total game time, number of rounds (1 round = number of words at which each player will guess 1 word)
+        \n\nIn case when the player has guessed the word - 1 point is given to the player who made the word and the one who guessed the word.
+        \n\nThe game ends when the players have played the selected number of rounds or the total game time is over.
+       </string>
+
+
+    <string name="version_game">Version of the game 1.1</string>
+    <string name="contact">Developer <a href="https://natife.com">Natife.com</a></string>
+    <string name="error_voice_not_support">Oh! Your device does not support voice typing</string>
+    <string name="ok">Ok</string>
+    <string name="set_name">Please, enter all names!</string>
+    <string name="set_different_name">Names must be different!</string>
+
+    <string name="set_rules_game">Game settings</string>
+    <string name="time_move">Round time (sec)</string>
+    <string name="time_game">Total game time (min)</string>
+    <string name="number_of_circles">Laps count</string>
+    <string name="save_game">Save</string>
+
+    <string name="turn">turn</string>
+    <string name="select_word_and_action">Choose WORD and ACTION</string>
+    <string name="show_words">Show the words</string>
+    <string name="show">Show</string>
+    <string name="tell">Tell</string>
+    <string name="draw">Draw</string>
+    <string name="go">Go!</string>
+    <string name="select_word">Choose the word!</string>
+    <string name="select_action">Choose an action!</string>
+
+    <string name="table_result">Game results</string>
+    <string name="guessed">guessed</string>
+    <string name="words">words</string>
+    <string name="start_over">Start again</string>
+    <string name="no">Cancel</string>
+    <string name="you_are_sure">Are you sure you want to start the game again?</string>
+    <string name="winner">Congratulations!</string>
+    <string name="first_place">1st place is</string>
+    <string name="text_draw">Draw</string>
+
+    <string name="they_guessed">Guessed</string>
+    <string name="they_not_guessed">Not guessed</string>
+    <string name="remind_word">Remind the word</string>
+    <string name="who_guessed">Who guessed?</string>
+    <string name="describes">tells</string>
+    <string name="draws">draws</string>
+    <string name="shows">shows</string>
+    <string name="clear">Clear</string>
+    <string name="action">Actions</string>
+    <string name="brush_settings">Brush Settings</string>
+    <string name="time_gone">Time is over</string>
+    <string name="word_is_guessed">The word is guessed?</string>
+
+    <string name="select_color">Choose a color</string>
+    <string name="select">Select</string>
+    <string name="custom">Advanced</string>
+    <string name="presets">Pre-installed</string>
+
+    <string name="share">Share</string>
+    <string name="share_via">Share via:</string>
+    <string name="share_text">Result of the game Imaginarium</string>
+    <string name="share_URI"><a href="https://natife.com">https://natife.com</a></string>
+
+    <string name="adUnitId">ca-app-pub-6629087046457001/8960702631</string>
+    <string name="mobileAds">ca-app-pub-6629087046457001~7076775328</string>
+    <string name="test">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

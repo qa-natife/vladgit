@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@mipmap/splash_bg</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="ButtonTheme" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_circuit</item>
+    </style>
+
+
+    <style name="ButtonThemeWithColor" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="ButtonThemeGuesed" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_guessed</item>
+    </style>
+
+    <style name="ButtonThemeNotGuesed" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_not_guessed</item>
+    </style>
+
+    <style name="ButtonThemeWithColor2" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_result</item>
+    </style>
+
+    <style name="RecyclerTheme" parent="android:Widget.ListView">
+        <item name="android:background">@drawable/recycler_backgroind</item>
+    </style>
+
+    <style name="CircleTheme">
+        <item name="android:src">@drawable/circle</item>
+    </style>
+
+    <style name="PlusTheme">
+        <item name="android:background">@drawable/plus</item>
+    </style>
+
+    <style name="MinusTheme">
+        <item name="android:background">@drawable/minus</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+    <style name="ColorDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@color/colorButton</item>
+        <!--<item name="android:textColorPrimary">#f3f3f3</item>-->
+    </style>
+
+</resources>

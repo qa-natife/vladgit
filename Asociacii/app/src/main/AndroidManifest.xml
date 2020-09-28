@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.natife.voobrazharium">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".App">
+        <activity
+            android:name=".splash.SplashActivity"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:screenOrientation="portrait" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    android:screenOrientation="portrait" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".init_game.InitGameActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" />
+        <activity android:name=".choose_how_play.ChooseHowPlayActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".game.GameActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity android:name=".resultgame.ResultGameActivity"
+            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c77c6231f0312cb7767b7c14e7bfc13f9ff6d5b5"
+            />
+    </application>
+
+</manifest>

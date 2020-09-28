@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+
+        <com.jaredrummler.android.colorpicker.ColorPreference
+            android:defaultValue="@color/colorPlayer5"
+            android:key="default_color"
+            android:summary="color_default_summary"
+            android:title="color_default_title"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
