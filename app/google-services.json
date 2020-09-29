@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "564367583650",
+    "firebase_url": "https://asociacii-vlad.firebaseio.com",
+    "project_id": "asociacii-vlad",
+    "storage_bucket": "asociacii-vlad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564367583650:android:54994104278bc624dbaafb",
+        "android_client_info": {
+          "package_name": "com.natife.voobrazharium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564367583650-p37nsc3vopqn1gh64qj477ds9g9potv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWuEIZk0Bnin2pu393ZNB-tyeD9TPpyvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564367583650-p37nsc3vopqn1gh64qj477ds9g9potv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
